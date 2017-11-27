@@ -1,11 +1,14 @@
 header{
 	background-color:white;
 	font-family:'Ariel','Helvtica Neue','Helvtica','sans-serif';
-	border-top: ;
+	border-top: none ;
+	border-left-color: white;
+	border-right-color:white;
+	border-top-color:white;
 	border-bottom:#d3d3d3;
 	border-style:solid;
 	border-width:medium;
-	padding-right:300px;
+	padding-right:0;
 	padding-bottom: 0;
 	margin-bottom: 0;
 	width:100%;
@@ -16,19 +19,21 @@ header{
 h1{
 	background: #4aaaa5;
 	color:#ffffff;
-	padding-top:18px;
+	padding-top:20px;
 	padding-bottom:20px;
-	padding-left:30px;
+	padding-left:17px;
 	padding-right:0px;
-	width:25%;
-	margin-right:380px;
+	width:17%;
+	margin-right:200px;
 	margin-left: 200px;
-	margin-top: 0;
+	margin-top: -3px;
 	float:left;
 	margin-bottom:0;
 	
 	
 }
+
+
 
 body{
 	padding:0;
@@ -38,7 +43,7 @@ body{
 
 .myLinks{
 	float:left;
-	margin-left:20px;
+	margin-left:294px;
 	color:#d3d3d3;
 	margin-top: 20px;
 	background-color: white;
@@ -56,7 +61,7 @@ body{
 	margin-right: 0;
 	padding-top: 0;
 	padding-right: 0;
-	height:350px;
+	height:375px;
 	background:#ffffff;
 	font-weight: bolder;
 	color:#777777;
@@ -65,8 +70,11 @@ body{
 	float:left;
 	padding-bottom: 20px;
 	margin-bottom: 10px;
-	text-indent: 50px;
+	text-indent: 0px;
 	float: left;
+	border-color:#cccccc;
+	border-width: thin;
+	border-style: solid;
 
 }
 .greyBorder{
@@ -79,14 +87,15 @@ body{
 
 h2{
 	color: #4aaaa5;
+	margin-left: 50px;
 }
 .connectMe{
 	float:left;
-	margin-left: 40px;
+	margin-left: 37px;
 	margin-right: 0px;
 	background: #ffffff;
 	color:#4aaaa5;
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: bold;
 	margin-top:50px;
 	width: 270px;
@@ -94,16 +103,44 @@ h2{
 	padding-top: 0;
 	padding-left:0;
 	text-align: center;
+	margin-bottom: 0;
+	border-color:#cccccc;
+	border-width: thin;
+	border-style: solid;
 
 }
 
 .github{
-	width:42px;
-	height:42px;
+	width:60px;
+	height:auto;
 	border:0;
+	padding: 0px;
+	margin-left: 35px;
+	margin-top: 2px;
 }
+
+.stackoverflow{
+	width:50px;
+	height:auto;
+	border:0;
+	padding: 0px;
+	margin-left: 20px;
+	margin-top: 2px;
+
+}
+
+.linkedIn{
+	width:50px;
+	height:auto;
+	border:0;
+	padding: 0px;
+	margin-left: 15px;
+	margin-top: 2px;
+}
+
+
 img{
-	margin-top: 10px;
+	margin-top: 22px;
 	margin-left: 50px;
 	padding-left: 0;
 	width:150px;
@@ -111,6 +148,9 @@ img{
 	float: left;
 	padding-right: 0;
 	margin-right: 0; 
+	border-color:#4aaaa5;
+	border-style: solid;
+	border-width:2px;
 	
 }
 
@@ -125,13 +165,13 @@ img{
 
 .aboutMebackground{
 	background: transparent;
-	width:960px;
-	height:550px;
-	margin-bottom: 0px;
+	width:1070px;
+	height:486px;
+	margin-top: 0px;
 	margin-left:200px;
 	padding-bottom: 0;
 	padding-left: 0;
-	margin-bottom: 0;
+	margin-bottom: 94px;
 
 }
 
