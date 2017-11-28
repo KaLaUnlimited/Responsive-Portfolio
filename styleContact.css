@@ -1,18 +1,18 @@
 
 .wrapper {
   /* Box-model */
-  width: 1024px;
+  width: 1382px;
 
   /* Positioning */
-  margin: 40px auto;
+ /*margin: 40px auto;*/
 }
+
 
 body{
 	padding:0;
 	margin:0;
 	width:100%;
 }
-
 header{
 	background-color:white;
 	font-family:'Ariel','Helvtica Neue','Helvtica','sans-serif';
@@ -51,7 +51,6 @@ h1{
 
 
 
-
 .myLinks{
 	float:left;
 	margin-left:294px;
@@ -64,13 +63,25 @@ h1{
 	
 }
 
+.aboutMebackground{
+	background: transparent;
+	width:1070px;
+	height:486px;
+	margin-top: 0px;
+	margin-left:200px;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin-bottom: 94px;
+
+}
+
 .aboutMe{
 	margin-top: 50px;
 	margin-left:0px;
 	margin-right: 0;
 	padding-top: 0;
 	padding-right: 0;
-	height:375px;
+	height:400px;
 	background:#ffffff;
 	font-weight: bolder;
 	color:#777777;
@@ -87,6 +98,7 @@ h1{
 
 }
 
+
 .greyBorder{
 
 	background: #cccccc;
@@ -95,13 +107,34 @@ h1{
 	margin-left: 50px;
 }
 
+form{
+
+	margin-left:50px;
+}
 
 h2{
 	color: #4aaaa5;
 	margin-left: 50px;
 }
 
+ .inputField{
+	color:#888181;
+	width:450px;
 
+  }
+  #inputMessage{
+  	color:#888181;
+  	width:450px;
+  	height:75px;
+
+  }
+
+
+.submit{
+	background: #4aaaa5 ; 
+	color:white;
+	height:40px;
+}
 .connectMe{
 	float:left;
 	margin-left: 37px;
@@ -173,36 +206,6 @@ img{
 }
 
 
-.inputField{
-
-	color:#888181;
-	width:450px
-}
-
-#inputMessage{
-
-	color:#888181;
-	width:450px;
-	height:75px
-}
-
-.submit{
-
-	background: #4aaaa5;
-	color:white;
-	height:40px
-}
-.aboutMebackground{
-	background: transparent;
-	width:1070px;
-	height:486px;
-	margin-top: 0px;
-	margin-left:200px;
-	padding-bottom: 0;
-	padding-left: 0;
-	margin-bottom: 94px;
-
-}
 
 .footer{
 	color:#ffffff;
@@ -230,7 +233,7 @@ img{
 }
 
 @media screen and (max-width: 768px) {
-  /* The body's bg color will be #333 */
+
   body {
     background-color: red;
   }
@@ -243,6 +246,12 @@ img{
   	position: static;
   	float:none;
   	width:100%;
+  }
+
+  .myLinks{
+	float:none;
+	margin-left: 140px;
+
   }
 
   .linkedIn{
@@ -264,6 +273,7 @@ img{
   	background-color: transparent;
   	margin-left: 0;
   	width:100%;
+
   }
 
   .inputField{
@@ -274,9 +284,15 @@ img{
   	width: 80%;
   }
 
+.submit{
+	background: #4aaaa5 ; 
+	color:white;
+	height:40px;
+}
+
   /* The wrapper's width will be 600px */
   .wrapper {
-    width: 600px;
+    width: 500px;
   }
 
 
