@@ -1,3 +1,18 @@
+
+.wrapper {
+  /* Box-model */
+  width: 1024px;
+
+  /* Positioning */
+  margin: 40px auto;
+}
+
+body{
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
 header{
 	background-color:white;
 	font-family:'Ariel','Helvtica Neue','Helvtica','sans-serif';
@@ -35,11 +50,7 @@ h1{
 
 
 
-body{
-	padding:0;
-	margin:0;
-	width:100%;
-}
+
 
 .myLinks{
 	float:left;
@@ -161,6 +172,26 @@ img{
 	font-size:18px;
 }
 
+
+.inputField{
+
+	color:#888181;
+	width:450px
+}
+
+#inputMessage{
+
+	color:#888181;
+	width:450px;
+	height:75px
+}
+
+.submit{
+
+	background: #4aaaa5;
+	color:white;
+	height:40px
+}
 .aboutMebackground{
 	background: transparent;
 	width:1070px;
@@ -196,4 +227,67 @@ img{
 	background: #4aaaa5;
 	height:10px;
 	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: red;
+  }
+  .connectme{
+
+  	display:none;
+  }
+
+  .header{
+  	position: static;
+  	float:none;
+  	width:100%;
+  }
+
+  .linkedIn{
+  	display:none;
+  }
+
+  .aboutMe{
+  	
+  	width:100%;
+  	margin-top: 100px;
+  	margin-left: 0;
+  	float:none;
+  }
+
+
+
+  .aboutMebackground{
+
+  	background-color: transparent;
+  	margin-left: 0;
+  	width:100%;
+  }
+
+  .inputField{
+	width:80%;
+
+  }
+  #inputMessage{
+  	width: 80%;
+  }
+
+  /* The wrapper's width will be 600px */
+  .wrapper {
+    width: 600px;
+  }
+
+
+}
+
+@media screen and (max-width:640px){
+
+	.aboutMe{
+
+		width:25%;
+	}
+
+
 }
