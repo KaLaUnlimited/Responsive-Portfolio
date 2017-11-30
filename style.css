@@ -5,7 +5,7 @@
 
   /* Positioning */
  /*margin: 40px auto;*/
- margin-left:12%;
+ 
 }
 
 header{
@@ -178,7 +178,7 @@ img{
 .aboutMebackground{
 	background: transparent;
 	width:1070px;
-	height:486px;
+	height:579px;
 	margin-top: 0px;
 	margin-left:200px;
 	padding-bottom: 0;
@@ -219,6 +219,7 @@ img{
   .wrapper {
     width: 69%;
 	height: 90%;
+	margin-left: 12%;
 
   }
 
@@ -350,7 +351,7 @@ h1{
   .p1{
 
 	font-size:70%;
-	width: 80%
+	width: 80%;
 }
 
 }
