@@ -1,3 +1,13 @@
+
+.wrapper {
+  /* Box-model */
+  width: 1382px;
+
+  /* Positioning */
+ /*margin: 40px auto;*/
+ margin-left:12%;
+}
+
 header{
 	background-color:white;
 	font-family:'Ariel','Helvtica Neue','Helvtica','sans-serif';
@@ -89,6 +99,8 @@ h2{
 	color: #4aaaa5;
 	margin-left: 50px;
 }
+
+
 .connectMe{
 	float:left;
 	margin-left: 37px;
@@ -172,7 +184,7 @@ img{
 	padding-bottom: 0;
 	padding-left: 0;
 	margin-bottom: 94px;
-
+	
 }
 
 .footer{
@@ -198,4 +210,147 @@ img{
 	background: #4aaaa5;
 	height:10px;
 	width: 100%;
+}
+
+/******************         768 screen         *****************************/
+@media screen and (max-width: 768px) {
+
+   /* The wrapper's width will be 600px */
+  .wrapper {
+    width: 69%;
+	height: 90%;
+
+  }
+
+  body {
+    background-color: red;
+  }
+  .connectMe{
+	margin-left: 0;
+	margin-top: 0;
+  	width:100%;
+  	height:30%;
+  }
+
+  .header{
+  	position: static;
+  	float:none;
+  	width:100%;
+  }
+
+h1{
+
+	padding-right: 52px;
+	margin-left: 33px;
+	margin-right: 35px;
+
+}
+  .myLinks{
+	float:none;
+	margin-left: 140px;
+
+  }
+
+
+  .aboutMe{
+  	
+  	width:100%;
+  	margin-top: 70px;
+  	margin-left: 0;
+  	float:none;
+  }
+
+
+
+  .aboutMebackground{
+
+  	background-color: transparent;
+  	margin-left: 0;
+  	margin-bottom: 250px;
+  	width:100%;
+
+  }
+
+  .img{
+
+  	width:90%;
+  }
+.p1{
+
+	font-size:80%;
+}
+.github{
+	width:60px;
+	height:auto;
+	border:0;
+	padding: 0px;
+	margin-left: 15%;
+	margin-top: 2px;
+}
+
+.stackoverflow{
+	width:50px;
+	height:auto;
+	border:0;
+	padding: 0px;
+	margin-left: 10%;
+	margin-top: 2px;
+
+}
+
+.linkedIn{
+	width:50px;
+	height:auto;
+	border:0;
+	padding: 0px;
+	margin-left: 8%;
+	margin-top: 2px;
+}
+
+ .footer{
+ 	margin-top: 0px;
+ 	height: 81px;
+ }
+
+
+}
+/******************* 640px ***************/
+
+@media screen and (max-width:640px){
+
+	.wrapper{
+		width: 69%;
+	}
+
+	h1{
+		font-size: 100%;
+	}
+
+	 .myLinks{
+	float:none;
+	margin-left: 140px;
+	font-size: 70%;
+  }
+	.aboutMe{
+  	
+  	width:100%;
+  	margin-top: 35px;
+  	margin-left: 0;
+  	float:none;
+  }
+
+	.aboutMebackground{
+
+  	background-color: transparent;
+  	margin-left: 0;
+  	margin-bottom: 225px;
+  	width:100%;
+
+  }
+  .p1{
+
+	font-size:70%;
+	width: 80%
+}
+
 }
