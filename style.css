@@ -1,12 +1,10 @@
 
 .wrapper {
-  /* Box-model */
+
   width: 1382px;
 
-  /* Positioning */
- /*margin: 40px auto;*/
- 
-}
+ }
+
 
 header{
 	background-color:white;
@@ -99,8 +97,6 @@ h2{
 	color: #4aaaa5;
 	margin-left: 50px;
 }
-
-
 .connectMe{
 	float:left;
 	margin-left: 37px;
@@ -178,15 +174,14 @@ img{
 .aboutMebackground{
 	background: transparent;
 	width:1070px;
-	height:579px;
+	height:486px;
 	margin-top: 0px;
 	margin-left:200px;
 	padding-bottom: 0;
 	padding-left: 0;
 	margin-bottom: 94px;
-	
-}
 
+}
 .footer{
 	color:#ffffff;
 	margin-top: 0px;
@@ -211,11 +206,10 @@ img{
 	height:10px;
 	width: 100%;
 }
-
 /******************         768 screen         *****************************/
 @media screen and (max-width: 768px) {
 
-   /* The wrapper's width will be 600px */
+  
   .wrapper {
     width: 69%;
 	height: 90%;
