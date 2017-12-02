@@ -1,3 +1,13 @@
+
+.wrapper {
+  /* Box-model */
+  width: 1382px;
+
+  /* Positioning */
+ /*margin: 40px auto;*/
+ 
+}
+
 header{
 	background-color:white;
 	font-family:'Ariel','Helvtica Neue','Helvtica','sans-serif';
@@ -185,16 +195,6 @@ h2{
 	float:left;
 }
 
-.happyBox{
-	position: relative;
-	margin-left: 130px;
-	width:150px;
-	height: 150px;
-	margin-top: 30px;
-	float:left;
-
-}
-
 .imgLove{
 	
 	margin: 0;
@@ -205,6 +205,18 @@ h2{
 		
 }
 
+.happyBox{
+	position: relative;
+	margin-left: 130px;
+	width:150px;
+	height: 150px;
+	margin-top: 30px;
+	float:left;
+
+}
+
+
+
 .imgHappy{
 
 	margin: 0;
@@ -213,6 +225,24 @@ h2{
 	height:150px;
 	float: left;
 
+}
+
+.journey{
+	background-color: #4aaaa5; 
+	z-index: 0;
+	width: 100%;
+	height:30px;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: : 0px;
+	color:white;
+	margin-left: 0px;
+	text-align: center;
+	margin-right:0px;
+	margin-top: 110px;
+	position:absolute;
+	
 }
 
 .imgDeveloper{
@@ -238,23 +268,7 @@ h2{
 	height:150px;
 	float: left;
 }
-.journey{
-	background-color: #4aaaa5; 
-	z-index: 0;
-	width: 100%;
-	height:30px;
-	padding-top: 10px;
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-bottom: : 0px;
-	color:white;
-	margin-left: 0px;
-	text-align: center;
-	margin-right:0px;
-	margin-top: 110px;
-	position:absolute;
-	
-}
+
 
 
 .developer{
@@ -332,7 +346,7 @@ h2{
 	position:absolute;
 	
 }
-.waterfall{
+.explore{
 	background-color: #4aaaa5; 
 	z-index: 0;
 	width: 100%;
@@ -371,4 +385,314 @@ h2{
 	background: #4aaaa5;
 	height:10px;
 	width: 100%;
+}
+
+
+/******************         768 screen         *****************************/
+@media screen and (max-width: 768px) {
+
+   /* The wrapper's width will be 600px */
+  .wrapper {
+
+    width: 50%;
+	height: 822px;
+	margin-left:12%;
+
+  }
+
+  body {
+    background-color: red;
+  }
+  .connectMe{
+	margin-left: 0;
+	margin-top: 0;
+  	width:100%;
+  	height:19%;
+  }
+
+  .header{
+  	position: static;
+  	float:none;
+  	width:100%;
+  }
+
+h1{
+	font-size: 90%;
+	padding-right: 52px;
+	margin-left: 33px;
+	margin-right: 21px;
+
+}
+  .myLinks{
+	float:none;
+	margin-left: 140px;
+	font-size: 75%;
+
+  }
+
+
+  .aboutMe{
+  	
+  	width:100%;
+  	margin-top: 27px;
+  	margin-left: 0;
+  	float:none;
+  	height: 780px;
+  }
+
+
+
+  .aboutMebackground{
+
+  	background-color: transparent;
+  	margin-left: 0;
+  	margin-bottom: 213px;
+  	width:100%;
+
+  }
+
+ .loveBox{
+
+ 	width: 90%;
+ 	height: 50%;
+ 	margin-left:100px;
+ }
+
+ .imgLove{
+	
+	margin: 0;
+	padding: 0;
+	width:50%;
+	height:50%;
+	float: left;
+		
+}
+
+
+.love{
+ 	width: 49%;
+ 	height: 20%;
+ 	margin-top: 76px;
+ 	padding-right: 3px;
+ }
+
+
+ .happyBox{
+	width: 90%;
+ 	height: 50%;
+ 	margin-left:100px;
+
+}
+
+.imgHappy{
+
+	
+	margin: 0;
+	padding: 0;
+	width:50%;
+	height:50%;
+	float: left;
+
+}
+
+.journey{
+	width: 49%;
+ 	height: 20%;
+ 	margin-top: 76px;
+ 	padding-right: 3px;
+	
+}
+
+
+
+
+.imgWaterFall{
+	margin: 0;
+	padding: 0;
+	width:25%;
+	height:111px;
+	float: left;
+}
+
+.waterBox{
+	width: 90%;
+ 	height: 50%;
+ 	margin-left:100px;
+ 	margin-top: 300px;
+	
+}
+.explore{
+	width: 25%;
+ 	height: 10%;
+ 	margin-top:73px;
+ 	padding-right: 3px;
+}
+
+.developer{
+	width: 49%;
+ 	height: 21%;
+ 	margin-top:78px;
+ 	padding-right: 3px;
+	
+}
+
+.developerBox{
+	width: 90%;
+ 	height: 50%;
+ 	margin-left:100px;
+ 	margin-top: 160px;
+
+}
+
+.imgDeveloper{
+	margin: 0;
+	padding: 0;
+	width:50%;
+	height:111px;
+	float: left;
+}
+
+.soupBox{
+	width: 90%;
+ 	height: 50%;
+ 	margin-left:100px;
+ 	margin-top: 565px;
+	
+}
+.soup{
+	width: 25%;
+ 	height: 7%;
+ 	margin-top:78px;
+ 	padding-right: 3px;
+}
+
+.imgSoup{
+	margin: 0;
+	padding: 0;
+	width:25%;
+	height:86px;
+	float: left;
+}
+
+
+
+.github{
+	width:60px;
+	height:auto;
+	border:0;
+	padding: 0px;
+	margin-left: 15%;
+	margin-top: 2px;
+}
+
+.stackoverflow{
+	width:50px;
+	height:auto;
+	border:0;
+	padding: 0px;
+	margin-left: 10%;
+	margin-top: 2px;
+
+}
+
+.linkedIn{
+	width:50px;
+	height:auto;
+	border:0;
+	padding: 0px;
+	margin-left: 8%;
+	margin-top: 2px;
+}
+
+ .footer{
+ 	margin-top: 0px;
+ 	height: 61px;
+ 	font-size: 80%;
+ 	padding-top: 15px;
+ }
+
+
+}
+/******************* 640px ***************/
+
+@media screen and (max-width:640px){
+
+	.wrapper{
+		width: 50%;
+	}
+
+	
+h1{
+	font-size: 90%;
+	padding-right: 52px;
+	margin-left: 33px;
+	margin-right: 10px;
+
+}
+
+	 .myLinks{
+	float:none;
+	margin-left: 140px;
+	font-size: 57%;
+  }
+	.aboutMe{
+  	
+  	width:100%;
+  	margin-top: 35px;
+  	margin-left: 0;
+  	float:none;
+  }
+
+	.aboutMebackground{
+
+  	background-color: transparent;
+  	margin-left: 0;
+  	margin-bottom: 225px;
+  	width:100%;
+
+  }
+  .greyBorder{
+
+	background: #cccccc;
+	height: 2px;
+	width: 75%;
+	margin-left: 50px;
+}
+
+  .github{
+	width:18%;
+	height:auto;
+	border:0;
+	padding: 0px;
+	margin-left: 15%;
+	margin-top: 2px;
+}
+
+.stackoverflow{
+	width:15%;
+	height:auto;
+	border:0;
+	padding: 0px;
+	margin-left: 10%;
+	margin-top: 2px;
+
+}
+
+.linkedIn{
+	width:15%;
+	height:auto;
+	border:0;
+	padding: 0px;
+	margin-left: 8%;
+	margin-top: 2px;
+}
+
+ .footer{
+ 	margin-top: 0px;
+ 	height: 54px;
+ 	font-size: 80%;
+ 	padding-top: 17px;
+ 	padding-bottom: 8px;
+ }
+
 }
