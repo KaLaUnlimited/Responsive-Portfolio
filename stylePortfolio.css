@@ -606,11 +606,17 @@ h1{
 
  .footer{
  	margin-top: 0px;
- 	height: 61px;
+ 	height: 56px;
  	font-size: 80%;
- 	padding-top: 15px;
+ 	padding-top: 0px;
  }
 
+.footerBorder{
+	background: #4aaaa5;
+	height:10px;
+	width: 100%;
+	margin-top: 310px;
+}
 
 }
 /******************* 640px ***************/
@@ -693,6 +699,10 @@ h1{
  	font-size: 80%;
  	padding-top: 17px;
  	padding-bottom: 8px;
+ }
+
+ .developerBox{
+ 	margin-top: 180px;
  }
 
 }
